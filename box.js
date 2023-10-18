@@ -1,7 +1,7 @@
 AFRAME.registerComponent("move-box",{
     schema:{
-        moveX:{ type:"number", default:1},
-        rotX:{type:"number", default:45}
+        moveY:{ type:"number", default:1},
+        rotY:{type:"number", default:45}
     },
     tick: function(){
         
